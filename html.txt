@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 challenge</title>
+    <link rel="stylesheet" href="/Users/andre/Desktop/module2challenge/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Andres Chaux Portfolio</h1>
+        <nav class="content">
+            <ul>
+                <li>
+                    <a href="#aboutme">About me</a>
+                </li>
+
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+
+                <li>
+                    <a href="#contactme">Contact me</a>
+                </li>
+                <li>
+                    <a href="#contactme">Linkedin</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="" alt="Photo" class="flex-item photo">
+    </header>
+
+<section class="about-me" id="aboutme">
+    <h3>About me</h3>
+    <img src="" alt="">
+    <p>Junior Software developer with excellent portfolio demonstrating advanced capabilites directly applicable in the tech industry</p>
+</section>
+
+<article class="Work" id="work">
+    <h4>Work</h4>
+    <section class="flex-container">
+        <div class="surf-report-container">  
+             <img src="/Users/andre/Desktop/placeholder image.jpg" alt="first project"class="flex-item first-project">
+             <a href="https://andres192x.github.io/refactoring-code/">first project</a>
+        </div>
+
+        <div class="LEDWall-Calculator-Container">
+            <img src="/Users/andre/Desktop/placeholder image.jpg" alt="LED Wall">
+            <p>LED Wall</p>
+            <img src="/Users/andre/Desktop/placeholder image.jpg" alt="Calculator">
+            <p>Calculator</p>
+        </div>
+
+        <div class="PastelPuzzles-RunBuddy-Container">
+            <img src="/Users/andre/Desktop/placeholder image.jpg" alt="Pastel Puzzles">
+            <p>Pastel Puzzles</p>
+            <img src="/Users/andre/Desktop/placeholder image.jpg" alt="Run Buddy">
+            <p>Run Buddy</p>
+        </div>
+
+    </section>
+</article>
+
+<footer class="contact-me" id="contactme">
+    <h5>Contact me</h5>
+    <ul>
+        <li>+1 647-938-2121</li>
+        <li>andres192x@hotmail.com</li>
+    </ul>
+</footer>
+</body>
+</html>

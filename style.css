@@ -1,0 +1,51 @@
+*{background-color: gray;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
+
+    .header {
+        padding: 20px;
+        font-family:'Times New Roman', Times, serif;
+        background-color:darkblue;
+        color:aliceblue;
+    }
+    .header h1 {
+        display: inline-block;
+        font-size: 50px;
+        background-color:darkblue;
+    }
+   .header h2 {
+    background-color:darkblue;
+   }
+
+   .flex-container {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+    padding: 0;
+  margin: 0;
+  list-style: none;
+  gap:20px;
+   }
+
+   .flex-item {
+    background:aquamarine;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    flex-wrap: wrap;
+     }
+
+     
+
+     
+
+    
+
