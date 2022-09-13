@@ -1,4 +1,4 @@
-*{background-color: gray;
+*{background-color:white;
     box-sizing: border-box;
     padding: 0;
     margin: 0;}
@@ -9,6 +9,8 @@
         background-color:darkblue;
         color:aliceblue;
     }
+
+
     .header h1 {
         display: inline-block;
         font-size: 50px;
@@ -17,6 +19,22 @@
    .header h2 {
     background-color:darkblue;
    }
+.about-me h3{
+    font-size: 60px;
+}
+h1{
+    font-size: 100px;
+}
+h4 {
+    font-size: 60px;
+}
+h5{
+    font-size: 60px;
+}
+li{
+    background-color:darkblue;
+    color: white;
+}
 
    .flex-container {
     width: 80%;
@@ -43,9 +61,27 @@
     flex-wrap: wrap;
      }
 
-     
-
-     
-
-    
-
+.about-me{
+      /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-me {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .about-me {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .about-me {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .about-me {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .about-me {background: pink;}}
